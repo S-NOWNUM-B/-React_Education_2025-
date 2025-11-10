@@ -6,7 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "dev:cw1": "vite --config CW1 --root CW1",
+    "dev:cw2": "vite --config CW2 --root CW2",
+    "dev:cw3": "vite --config CW3 --root CW3",
+    "dev:cw4": "vite --config CW4 --root CW4",
+    "dev:hw1": "vite --config HW1 --root HW1",
+    "dev:hw2": "vite --config HW2 --root HW2",
+    "dev:hw3": "vite --config HW3 --root HW3",
+    "dev:hw4": "vite --config HW4 --root HW4",
+    "dev:hw5": "vite --config HW5 --root HW5",
+    "dev:midterm1": "vite --config midterm1 --root midterm1"
   },
   "dependencies": {
     "react": "^19.1.1",
