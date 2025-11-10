@@ -7,20 +7,23 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "dev:cw1": "vite --config CW1 --root CW1",
-    "dev:cw2": "vite --config CW2 --root CW2",
-    "dev:cw3": "vite --config CW3 --root CW3",
-    "dev:cw4": "vite --config CW4 --root CW4",
-    "dev:hw1": "vite --config HW1 --root HW1",
-    "dev:hw2": "vite --config HW2 --root HW2",
-    "dev:hw3": "vite --config HW3 --root HW3",
-    "dev:hw4": "vite --config HW4 --root HW4",
-    "dev:hw5": "vite --config HW5 --root HW5",
-    "dev:midterm1": "vite --config midterm1 --root midterm1"
+    "dev:cw1": "cd CW1 && vite",
+    "dev:cw2": "cd CW2 && vite",
+    "dev:cw3": "cd CW3 && vite",
+    "dev:cw4": "cd CW4 && vite",
+    "dev:hw1": "cd HW1 && vite",
+    "dev:hw2": "cd HW2 && vite",
+    "dev:hw3": "cd HW3 && vite",
+    "dev:hw4": "cd HW4 && vite",
+    "dev:hw5": "cd HW5 && vite",
+    "dev:midterm1": "cd midterm1 && vite"
   },
   "dependencies": {
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.1.3",
+    "formik": "^2.4.6",
+    "yup": "^1.6.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.3",
